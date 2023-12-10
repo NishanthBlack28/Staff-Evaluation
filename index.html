@@ -3,40 +3,126 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Login</title>
-    <style>
-      body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height : 100vh;
-    background: url('img/b-img.jpeg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
   </head>
+  <title>Teacher Evaluation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
-
-    <div class="wrapper">
-     <form action="login.php" method="post">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type = "text" name="rollno" placeholder = "Roll no" required>
-                <i class='bx bxs-user'></i><br>
-            </div>
-
-            <div class="input-box">
-                <input type="password" placeholder = "Password"
-                  name="pass"required>
-                <i class='bx bxs-lock-alt' ></i><br>
-            </div>    
-
-            <button type = "submit" class="btn">Login</button>
-
-        </form>
-    </div>   
+ <form action="process.php" method="post">
+  <table>
+    <h5>1. How does your teacher's punctuality impact the learning environment and student engagement?</h6>
+    <tr>
+      <th>C&DS:</th>
+      <td><input type="radio" name="sfn1-q1" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn1-q1" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn1-q1" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn1-q1" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn1-q1" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>CHS:</th>
+      <td><input type="radio" name="sfn2-q1" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn2-q1" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn2-q1" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn2-q1" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn2-q1" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>BEEE:</th>
+      <td><input type="radio" name="sfn3-q1" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn3-q1" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn3-q1" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn3-q1" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn3-q1" value="5" required><label>5</label></td>
+    </tr>
+  </table>
+  <table>
+    <h5>2. What specific strategies does your teacher use to ensure clear and effective explanation of concepts? How do these strategies help you understand the material better?</h5>
+    <tr>
+      <th>C&DS:</th>
+      <td><input type="radio" name="sfn1-q2" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn1-q2" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn1-q2" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn1-q2" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn1-q2" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>CHS:</th>
+      <td><input type="radio" name="sfn2-q2" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn2-q2" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn2-q2" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn2-q2" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn2-q2" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>BEEE:</th>
+      <td><input type="radio" name="sfn3-q2" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn3-q2" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn3-q2" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn3-q2" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn3-q2" value="5" required><label>5</label></td>
+    </tr>
+  </table>
+  <table>
+    <h5>3.Do the staff explain concepts with examples?.</h5>
+    <tr>
+      <th>C&DS:</th>
+      <td><input type="radio" name="sfn1-q3" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn1-q3" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn1-q3" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn1-q3" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn1-q3" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>CHS:</th>
+      <td><input type="radio" name="sfn2-q3" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn2-q3" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn2-q3" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn2-q3" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn2-q3" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>BEEE:</th>
+      <td><input type="radio" name="sfn3-q3" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn3-q3" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn3-q3" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn3-q3" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn3-q3" value="5" required><label>5</label></td>
+    </tr>
+  </table>
+  <table>
+    <h5>4.Are the home assignments and class assignments assigned by the staff on time?</h5>
+    <tr>
+      <th>C&DS:</th>
+      <td><input type="radio" name="sfn1-q4" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn1-q4" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn1-q4" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn1-q4" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn1-q4" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>CHS:</th>
+      <td><input type="radio" name="sfn2-q4" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn2-q4" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn2-q4" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn2-q4" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn2-q4" value="5" required><label>5</label></td>
+    </tr>
+    <tr>
+      <th>BEEE:</th>
+      <td><input type="radio" name="sfn3-q4" value="1" required><label>1</label></td>
+      <td><input type="radio" name="sfn3-q4" value="2" required><label>2</label></td>
+      <td><input type="radio" name="sfn3-q4" value="3" required><label>3</label></td>
+      <td><input type="radio" name="sfn3-q4" value="4" required><label>4</label></td>
+      <td><input type="radio" name="sfn3-q4" value="5" required><label>5</label></td>
+    </tr>
+  </table>
+  <button type="submit" name="submit" value="submit" class="Submit">Submit</button>
+  </form>
 </body>
+
 </html>
